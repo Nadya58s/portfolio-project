@@ -6,7 +6,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Patricia is a front-end engineer based in Portugal. "
+    />
+    <title>Front-end developer - Patricia</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -42,26 +46,31 @@
       src="https://kit.fontawesome.com/22b6acbf7a.js"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" alt="" class="logo d-block d-md-block" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="Patricia Logo"
+            class="logo d-block d-md-block"
+          />
         </a>
         <ul>
-          <li>
-            <a href="/" class="active"> Home </a>
+          <li class="active">
+            <a href="/" title="Homepage"> Home </a>
           </li>
           <li>
-            <a href="/about.html"> About </a>
+            <a href="/about.html" title="About Patricia"> About </a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Patricia work"> Work </a>
           </li>
           <li>
-            <a href="/work.html"> Work </a>
-          </li>
-          <li>
-            <a href="/contact.html"> Contact </a>
+            <a href="/contact.html" title="Contact Patricia"> Contact </a>
           </li>
         </ul>
       </nav>
@@ -69,50 +78,111 @@
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
+
         <div class="row">
           <div class="col-md-6 mb-4">
             <img
               src="images/yogurt.png"
-              alt=""
               class="img-fluid mb-3 rounded"
+              alt="Yogurt project"
             />
-            <h3 class="text-center m-0">Yogurt project</h3>
-            <p class="text-center text-muted">Build with HTML and CSS</p>
+            <h3 class="text-center m-0">Yogurt Project</h3>
+            <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
-
           <div class="col-md-6 mb-4">
             <img
               src="images/weather.png"
-              alt=""
               class="img-fluid mb-3 rounded"
+              alt="Weather app project"
             />
-            <h3 class="text-center m-0">Weather app</h3>
+            <h3 class="text-center m-0">Weather Project</h3>
             <p class="text-center text-muted">
-              Build with HTML, CSS and JavaScript
+              Built with HTML, CSS and JavaScript
             </p>
           </div>
-
           <div class="col-md-6 mb-4">
             <img
               src="images/dictionary.png"
-              alt=""
               class="img-fluid mb-3 rounded"
+              alt="Dictionary app project"
             />
             <h3 class="text-center m-0">Dictionary App</h3>
-            <p class="text-center text-muted">Build with HTML, CSS and React</p>
+            <p class="text-center text-muted">
+              Built with HTML, CSS with React
+            </p>
           </div>
-
           <div class="col-md-6 mb-4">
             <img
               src="images/translate.png"
-              alt=""
               class="img-fluid mb-3 rounded"
+              alt="Translation app project"
             />
-            <h3 class="text-center m-0">Yogurt project</h3>
-            <p class="text-center text-muted">Build with HTML, CSS and React</p>
+            <h3 class="text-center m-0">Translation App</h3>
+            <p class="text-center text-muted">
+              Built with HTML, CSS with React
+            </p>
           </div>
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Patricia"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:patricia@gmail.com"
+          class="email-link"
+          title="Email Patricia"
+        >
+          patricia@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://gothub.com/patricia"
+          target="_blank"
+          title="GitHub profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://twitter.com/patricia"
+          target="_blank"
+          title="Twitter profile"
+        >
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a
+          href="https://ginstagram.com/patricia"
+          target="_blank"
+          title="Instagram profile"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Patricia, and it
+        <a
+          href="https://github.com/Nadya58s/portfolio-project"
+          t
+          arget="_blank"
+        >
+          open -source
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
